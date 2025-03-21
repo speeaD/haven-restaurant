@@ -11,7 +11,7 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      title: 'Haven of Flavours - Haven',
+      title: 'Haven of Flavours - Haven of Flavours',
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' }
