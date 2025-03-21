@@ -23,11 +23,16 @@ export default defineNuxtConfig({
     }
   },
 
-  modules: ['@nuxt/icon', '@nuxtjs/tailwindcss', '@pinia/nuxt'],
+  modules: ['@nuxt/icon', '@nuxtjs/tailwindcss', '@pinia/nuxt', '@nuxtjs/sitemap'],
 
   runtimeConfig: {
     public: {
       pocketbaseUrl: process.env.PUBLIC_POCKETBASE_URL
     }
-  }
+  },
+
+  site: { 
+    url: 'https://www.havendiner.food', 
+    name: 'Haven Diner - Haven of Flavours' 
+    }, 
 })
